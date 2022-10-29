@@ -1,0 +1,128 @@
+header {
+  background-color: black;
+}
+
+/* Navigation styles */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 20px 100px;
+  cursor: pointer;
+}
+
+.nav .left button {
+  background-color: skyblue;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.nav .right button {
+  background-color: #ffff00;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+body .center {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center a {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none !important;
+}
+
+/* Column styles */
+
+.column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  height: 1200px;
+  margin: auto;
+}
+
+.meal1 {
+  background-image: url(../images/steak.png);
+}
+
+.meal2 {
+  background-image: url(../images/soup.png);
+}
+
+.meal3 {
+  background-image: url(../images/cheesecake.png);
+}
+
+.meal1,
+.meal2,
+.meal3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.column .text {
+  padding: 20px 40px;
+  color: rgba(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column .text p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Footer Styles */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 20px 100px;
+  cursor: pointer;
+  gap: 100px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0px;
+}
+
+.fb {
+  color: skyblue;
+}
+
+.tw {
+  color: #ffff00;
+}
+
+.ig {
+  color: #ff0000;
+}
